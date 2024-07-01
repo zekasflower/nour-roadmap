@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Babylonica&family=Cairo:wght@200..1000&family=Nabla&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-cairo bg-[#F8FAFC] text-mid-dark font-light selection:bg-primary/20 selection:text-mid-dark
+}
